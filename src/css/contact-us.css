@@ -1,0 +1,34 @@
+.contact-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+
+  margin-bottom: 24px;
+}
+.form {
+  background: #f3f3f3;
+  border-radius: 30px;
+  min-height: 512px;
+  padding: 48px 28px;
+}
+.form-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+
+  margin-bottom: 28px;
+}
+.form-cnt {
+}
+.form-label {
+}
+.form-input {
+}
+.form-textarea {
+}
