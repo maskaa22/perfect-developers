@@ -22,7 +22,9 @@
   src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
 }
-
+body {
+  background: #fbfbfb;
+}
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -31,12 +33,12 @@
 
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 704px;
     padding: 0 32px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .container {
     max-width: 1150px;
     padding: 0 65px;
