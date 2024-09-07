@@ -67,6 +67,7 @@
   }
 
   .title-reviews {
+    margin-bottom: 40px;
     font-size: 48px;
     line-height: 0.92;
   }
@@ -100,10 +101,6 @@
 @media only screen and (min-width: 1280px) {
   .reviews {
     padding-bottom: 100px;
-  }
-
-  .title-reviews {
-    margin-bottom: 40px;
   }
 
   .list-reviews {
