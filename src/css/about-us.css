@@ -1,23 +1,24 @@
 .about-us
-{display: flex;
+{
+/* display: flex;
 flex-direction: column;
-gap: 20px;
-margin-top: 60px;
+gap: 20px; */
+/* margin-top: 60px;
 margin-right: 20px;
 margin-bottom: 60px;
-margin-left: 20px;}
+margin-left: 20px; */
+}
 
-.container-about
-{width: 335px;
-height: 446px;
+.inner-container
+{
+/* width: 335px;
+height: 446px; */
 border-radius: 30px;
-background-color: #f3f3f3;}
+background-color: #f3f3f3;
+padding-bottom: 40px;}
 
 .description
-{padding-top: 40px;
-padding-right: 20px;
-padding-bottom: 40px;
-padding-left: 20px;}
+{padding: 40px 20px;}
 
 .title
 {margin-bottom: 28px;}
