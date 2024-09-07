@@ -19,7 +19,6 @@
   display: flex;
   max-width: 335px;
   max-height: 262px;
-  overflow: auto;
 }
 
 .item-review {
@@ -31,6 +30,11 @@
   padding: 32px 36px;
   border-radius: 30px;
   background-color: #f3f3f3;
+}
+
+.item-review:nth-child(2),
+.item-review:nth-child(3) {
+  display: none;
 }
 
 .item-review .img {
@@ -78,6 +82,10 @@
     width: calc((100% - 16px) / 2);
   }
 
+  .item-review:nth-child(2) {
+    display: flex;
+  }
+
   .item-review .title-name {
     font-size: 18px;
     line-height: 1.1;
@@ -106,5 +114,9 @@
   .item-review {
     min-width: 370px;
     width: calc((100% - 40px) / 3);
+  }
+
+  .item-review:nth-child(3) {
+    display: flex;
   }
 }
