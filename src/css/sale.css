@@ -1,6 +1,8 @@
 .sale-sectione {
+    
 }
 .sale-container {
+    
 }
 .sale-title {
     font-family: "Gilroy", sans-serif;
@@ -10,14 +12,12 @@ line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 margin-bottom: 24px;
+margin-left: 20px;
 }
 .sale-inner {
 }
 .sale-list-img {
     display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
 gap: 5px;
 margin-bottom: 20px;
 }
@@ -48,20 +48,19 @@ background-color: #3350e9;
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
 font-size: 24px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: -0.02em;
 color: #fbfbfb;
 padding-top: 48px;
 padding-left: 28px;
 padding-right: 28px;
 padding-bottom: 10px;
-
 }
 .sale-des {
     font-family: "Gilroy", sans-serif;
     font-weight: 400;
 font-size: 14px;
-line-height: 1.28571;
+line-height: 1.28;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.5);
 padding-left: 28px;
@@ -90,7 +89,7 @@ color: #fbfbfb;
 .inner-div-title {
     font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: -0.02em;
 text-decoration: line-through;
 color: rgba(251, 251, 251, 0.5);
@@ -102,7 +101,7 @@ align-items: center;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
 font-size: 14px;
-line-height: 1.28571;
+line-height: 1.28;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.7);
 margin-left: 28px;
@@ -116,6 +115,9 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 8px;
+padding-left: 28px;
+padding-right: 28px;
+padding-bottom: 48px;
 }
 .sale-li {
 }
@@ -123,48 +125,120 @@ gap: 8px;
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 128px;
-height: 32px;
 }
 .sale-li-div-2{
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 123px;
-height: 32px;
 }
 .sale-li-div-3{
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 64px;
-height: 32px;
 }
 .sale-li-div-4{
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 58px;
-height: 32px;
 }
 .sale-li-div-5{
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 94px;
-height: 32px;
 }
 .sale-li-div-6{
     border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
 padding: 8px 12px;
-width: 85px;
-height: 32px;
 }
 .sale-li-div-def {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
 font-size: 12px;
-line-height: 1.33333;
+line-height: 1.33;
 color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .sale-container{
+display: flex;
+flex-wrap: wrap;
+height: 1200px;
+    }
+
+    .sale-title{
+        font-size: 48px;
+        margin-left: 32px;
+        margin-bottom: 40px;
+    }
+
+    .sale-inner{
+        margin-right: 20px;
+    }
+
+    .sale-list-img{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sale-img-cont{
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 20px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .sale-img-inner{
+        border-radius: 50px;
+width: 552px;
+height: 558px;
+    }
+
+    .sale-title-inner {
+        border-radius: 50px;
+        width: 704px;
+        height: 518px;
+    }
+
+    .sale-h3 {
+    font-size: 32px;
+    line-height: 1.13;
+    color: #fbfbfb;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 208px;
+    padding-bottom: 10px;
+    }
+
+    .sale-des {
+    padding-left: 60px;
+    }
+
+    .inner-div {
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+
+    .inner-div-sale {
+    max-width: 78px;
+    }
+
+    .inner-div-sale-item {
+    font-size: 20px;
+    line-height: 1;
+    }
+
+    .sale-des-item {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    }
+
+    .sale-ul {
+    padding-left: 60px;
+    padding-right: 246px;
+    padding-bottom: 60px;
+    }
 }
