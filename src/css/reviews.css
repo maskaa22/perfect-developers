@@ -1,5 +1,5 @@
 .reviews {
-  padding: 30px 0;
+  padding-bottom: 60px;
 }
 
 .reviews > .container {
@@ -59,7 +59,7 @@
 
 @media only screen and (min-width: 768px) {
   .reviews {
-    padding: 40px 0;
+    padding-bottom: 80px;
   }
 
   .title-reviews {
@@ -91,7 +91,7 @@
 
 @media only screen and (min-width: 1280px) {
   .reviews {
-    padding: 50px 0;
+    padding-bottom: 100px;
   }
 
   .title-reviews {
