@@ -182,7 +182,8 @@
   }
   .nav-list-item,
   .social-item,
-  .nav-list-item:first-child {
+  .nav-list-item:first-child,
+  .nav-list-item:last-child {
     padding: 26px 0;
   }
   .nav-link {
