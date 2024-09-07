@@ -19,6 +19,16 @@
 }
 @font-face {
   font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
 }
@@ -33,14 +43,14 @@ body {
 
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1150px;
+    max-width: 1280px;
     padding: 0 65px;
   }
 }
