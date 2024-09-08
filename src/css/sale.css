@@ -213,13 +213,21 @@ min-height: 1200px;
         .sale-list {
             width: 398px;
         }
+
+        .sale-img-1 {
+            padding: 80px 112px;
+        }
     }
 
-    @media screen and (min-width: 1158px) {
+    @media screen and (min-width: 1280px) {
         .sale-container{
-            flex-direction: row;
-            flex-wrap: nowrap;
+            display: block;
                 }
+
+        .sale-container-inner{
+            display: flex;
+            gap: 40px;
+        }
 
         .sale-title-inner{
             width: 530px;
@@ -228,5 +236,13 @@ height: 558px;
 
         .sale-img-inner{width: 428px;
 height: 558px;
+        }
+
+        .sale-h3{
+            width: 389px;
+        }
+
+        .sale-img-1 {
+            padding: 80px 50px;
         }
     }
