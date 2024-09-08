@@ -1,0 +1,121 @@
+.footer-top-position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  text-transform: lowercase;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--background);
+}
+
+.footer-heading {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  width: 523px;
+
+  color: var(--background);
+
+  text-align: center;
+}
+
+.footer-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+
+  color: var(--background);
+
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  padding: 15px;
+}
+
+.footer-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 126px;
+}
+
+.footer-nav-list {
+  /* position: relative; */
+  display: flex;
+  gap: 40px;
+}
+
+/* .footer-nav-list::after {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  content: '';
+
+  width: 1136px;
+
+  border: 1px solid rgba(251, 251, 251, 0.1);
+} */
+
+.footer-nav-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+
+  color: var(--background);
+
+  text-transform: capitalize;
+}
+
+.footer-address {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  width: 162px;
+
+  color: var(--background);
+}
+
+.footer-terms-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 28px;
+
+  border-top: 1px solid rgba(251, 251, 251, 0.1);
+  padding-top: 28px;
+}
+
+.footer-copyright {
+  opacity: 0.9;
+}
+
+.footer-copyright,
+.footer-terms-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-terms-list {
+  display: flex;
+  gap: 20px;
+}
