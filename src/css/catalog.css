@@ -5,17 +5,11 @@
 
 .container-catalog {
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .image-container {
     width: 279px;
     height: 262px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .catalog-title {
@@ -39,7 +33,6 @@
     height: 364px;
     background: #f3f3f3;
 
-    display: flex;
     padding: 24px 28px;
     margin-bottom: 20px;
 }
@@ -51,10 +44,6 @@
 .catalog-list-item:nth-child(5),
 .catalog-list-item:nth-child(6) {
     display: none;
-}
-
-.catalog-card {
-    width: 279px;
 }
 
 .image-container {
@@ -112,7 +101,7 @@
 
     .catalog-list-item:nth-child(5),
     .catalog-list-item:nth-child(6) {
-        display: flex;
+        display: block;
     }
 
     .catalog {
