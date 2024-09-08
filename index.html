@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/perfect-developers/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/perfect-developers/assets/index-DEM4TApR.css">
+    <link rel="stylesheet" crossorigin href="/perfect-developers/assets/index-G-L-OwGt.css">
   </head>
   <body>
     <header class="header">
@@ -291,8 +291,7 @@
 
       
       
-      <!-- Section Reviews -->
-<section id="reviews" class="reviews">
+      <section id="reviews" class="reviews">
   <div class="container">
     <h2 class="title-reviews">Reviews</h2>
     <ul class="list-reviews">
@@ -348,7 +347,73 @@
   </div>
 </section>
 
-      
+      <section id="contact-us" class="contact-section">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="desktop-pos">
+      <div class="form">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form-cnt">
+          <input
+            type="text"
+            class="form-input"
+            name="user-name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            class="form-input"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            type="tel"
+            class="form-input"
+            name="user-tel"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+
+          <textarea
+            class="form-textarea"
+            name="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </form>
+        <button type="submit" class="form-btn">Send</button>
+      </div>
+      <picture>
+        <source
+          srcset="../img/contact-us/contact_us_pc.jpg 1x, ../img/contact-us/contact_us_2x_pc.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="../img/contact-us/contact_us_tab.jpg 1x, ../img/contact-us/contact_us_2x_tab.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="../img/contact-us/contact_us_mob.jpg 1x, ../img/contact-us/contact_us_2x_mob.jpg 2x"
+          media="(max-width: 375px)"
+        />
+        <img
+          class="contact-img"
+          src="../img/contact-us/contact_us_pc.jpg"
+          alt="watch"
+          width="530"
+          height="556"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
 
     
