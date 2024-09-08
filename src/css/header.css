@@ -188,6 +188,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .nav-container {
+    background-image: none;
+  }
   .menu-open-btn,
   .menu-toggle {
     display: none;
