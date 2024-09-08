@@ -88,7 +88,7 @@
     cursor: pointer;
     border: none;
     margin: 0 auto;
-    text-align: center;
+    display: block;
 
     transition: 0.5s;
 }  
