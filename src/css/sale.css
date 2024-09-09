@@ -140,7 +140,6 @@ color: #fbfbfb;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-min-height: 1200px;
     }
 
     .sale-title{
