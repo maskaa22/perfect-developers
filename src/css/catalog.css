@@ -1,186 +1,183 @@
-
 .catalog {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .container-catalog {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .image-container {
-    width: 279px;
-    height: 262px;
+  width: 279px;
+  height: 262px;
 }
 
 .catalog-title {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 24px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
 }
 
 .catalog-list {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .catalog-list-item {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    width: 335px;
-    height: 364px;
-    background: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background: #f3f3f3;
 
-    padding: 24px 28px;
-    margin-bottom: 20px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
 }
 
 .catalog-list-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .catalog-list-item:nth-child(5),
 .catalog-list-item:nth-child(6) {
-    display: none;
+  display: none;
 }
 
 .image-container {
-    padding: 18px 35px;
+  padding: 18px 35px;
 }
 
 .card-information {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .watch-name {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 8px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
 }
 
 .watch-prise {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.5);
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
 }
 
 .catalog-button {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
-    color: #fbfbfb;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #fbfbfb;
 
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background: #3350e9;
-    cursor: pointer;
-    border: none;
-    margin: 0 auto;
-    display: block;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  display: block;
 
-    transition: 0.5s;
-}  
+  transition: 0.5s;
+}
 
 .catalog-button:focus,
 .catalog-button:hover {
-    background: #1f3cd4;
+  background: #1f3cd4;
 }
 
 @media only screen and (min-width: 768px) {
+  .catalog-list-item:nth-child(5),
+  .catalog-list-item:nth-child(6) {
+    display: block;
+  }
 
-    .catalog-list-item:nth-child(5),
-    .catalog-list-item:nth-child(6) {
-        display: block;
-    }
+  .catalog {
+    padding-bottom: 80px;
+  }
 
-    .catalog {
-        padding-bottom: 80px;
-    }
+  .catalog-title {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
 
-    .catalog-title {
-        font-size: 48px;
-        line-height: 92%;
-        margin-bottom: 40px;
-    }
+  .catalog-list {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+  }
 
-    .catalog-list {
-        display: flex;
-        flex-direction: column;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 32px 16px;
-    }
+  .catalog-list-item {
+    flex-basis: calc((100% - 16px) / 2);
+    height: 414px;
+    margin-bottom: 0;
+  }
 
-    .catalog-list-item {
-        flex-basis: calc((100% - 16px) / 2);
-        height: 414px;
-        margin-bottom: 0;
-    }
+  .image-container {
+    width: 280px;
+    height: 312px;
+    padding: 10px 6px;
+  }
 
-    .image-container {
-        width: 280px;
-        height: 312px;
-        padding: 10px 6px;
-    }
+  .card-information {
+    width: 280px;
+  }
 
-    .card-information {
-        width: 280px;
-    }
+  .watch-name {
+    font-size: 20px;
+    line-height: 100%;
 
-    .watch-name {
-        font-size: 20px;
-        line-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .catalog-button {
-        display: none;
-    }
+  .catalog-button {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
+  .catalog {
+    padding-bottom: 100px;
+  }
 
-    .catalog {
-        padding-bottom: 100px;
-    }
+  .catalog-list {
+    gap: 32px 23px;
+  }
 
-    .catalog-list {
-        gap: 32px 23px;
-    }
+  .catalog-list-item {
+    flex-basis: calc((100% - 46px) / 3);
+  }
 
-    .catalog-list-item {
-        flex-basis: calc((100% - 46px) / 3);
-    }
+  .catalog-card {
+    width: 304px;
+  }
 
-    .catalog-card {
-        width: 304px;
-    }
+  .image-container {
+    width: 304px;
+    height: 312px;
+  }
 
-    .image-container {
-        width: 304px;
-        height: 312px;
-    }
+  .card-information {
+    max-width: 304px;
+  }
 
-    .card-information {
-        max-width: 304px;
-    }
-
-    .watch-name {
-        width: 304px;
-    }
+  .watch-name {
+    width: 304px;
+  }
 }

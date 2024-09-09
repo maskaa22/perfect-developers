@@ -5,6 +5,9 @@
   --cards: #f3f3f3;
 }
 
+.footer-section {
+  padding-bottom: 20px;
+}
 .hidden {
   display: none;
 }
@@ -175,6 +178,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-section {
+    padding-bottom: 32px;
+  }
   .footer-section-wrap {
     padding: 40px;
   }
@@ -273,7 +279,4 @@
     gap: 0 40px;
   }
 
-  /* .footer-terms-wrap {
-    margin-top: 28px;
-  } */
 }

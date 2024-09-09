@@ -1,6 +1,5 @@
 :root {
-
-  color: #0C0C0C;
+  color: #0c0c0c;
   background-color: #fbfbfb;
 
   font-synthesis: none;
@@ -8,9 +7,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  
 }
- 
+
 @font-face {
   font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
@@ -32,10 +30,14 @@
   src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #fbfbfb;
 }
-input, textarea {
+input,
+textarea {
   outline: none;
 }
 
@@ -58,4 +60,3 @@ input, textarea {
     padding: 0 65px;
   }
 }
-
