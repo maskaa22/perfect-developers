@@ -111,6 +111,7 @@
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
+  padding: 12px 0;
 }
 .nav-link.current::after {
   content: '';
@@ -164,6 +165,12 @@
   .nav-list-item {
     padding: 16px 0;
   }
+  .nav-link {
+    padding: 16px 0;
+  }
+  .nav-link:focus {
+    color: #3350E9;
+  }
   .header-contaner {
     padding: 26px 32px;
   }
@@ -213,6 +220,18 @@
     margin-left: 203px;
     gap: 40px;
   }
+  .nav-link {
+    padding: 26px 0;
+  }
+  .nav-link:hover{
+    color: #3350E9;
+  }
+  .social-link:hover .social-icon, .social-link:focus .social-icon {
+    fill: #3350E9;
+  }
+  .social-link:hover, .social-link:focus {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+}
   .social-link {
     border: 1px solid rgba(12, 12, 12, 0.1);
   }
