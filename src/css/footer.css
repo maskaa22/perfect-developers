@@ -70,7 +70,6 @@
   font-size: 20px;
   line-height: 120%;
   letter-spacing: -0.02em;
-  width: 100%;
 
   color: var(--background);
 
@@ -82,6 +81,7 @@
 
   display: inline-flex;
   align-items: center;
+  justify-content: center;
 
   max-width: fit-content;
 
@@ -145,6 +145,8 @@
 /* Terms */
 
 .footer-terms-wrap {
+  margin-top: 24px;
+
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -196,6 +198,9 @@
 
   .footer-number {
     margin-top: 0px;
+    margin-bottom: 20px;
+
+    height: 48px;
 
     font-size: 14px;
     line-height: 129%;
@@ -226,6 +231,7 @@
   }
 
   .footer-terms-wrap {
+    margin-top: 28px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
