@@ -14,7 +14,7 @@
 }
 
 .advertisement{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 
@@ -42,14 +42,12 @@
 
 .text-advertisement{
     font-family: "Gilroy", sans-serif;
-    /* padding-bottom: 28px; */
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 28px;
-    text-align: left;
 }
 
 .desk{
@@ -80,7 +78,7 @@
 
 @media screen and (min-width: 768px){
     .advertisement{
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 
     .advertisement-container {
@@ -104,8 +102,7 @@
     .text-advertisement{
         font-size: 48px;
         line-height: 0.9;
-        text-align: left;
-        
+        margin-bottom: 32px;
     }
 
     .button-advertisement{
@@ -115,21 +112,21 @@
 }
 @media screen and (min-width: 1280px){
 .advertisement{
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     
 }
 
 .advertisement-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     background-image: 
     linear-gradient(rgba(12, 12, 12, 0.8),
             rgba(12, 12, 12, 0.8)),url(../img/advertisement/Advertisement-pc.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 0 80px;
+    padding: 83px 80px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
@@ -142,18 +139,13 @@
  }
 
 .text-advertisement{
-    font-size: 48px;
     width: 690px;
-    margin-top: 0;
     margin-bottom: 0;
-    padding-top: 83px;
-    padding-bottom: 83px;
-    text-align: left;}
+
+}
 
 .button-advertisement{
     display: block;
-    margin-bottom: 170px;
     margin-top: 0;
-    margin-top: 80px;
     } 
 }

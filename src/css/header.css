@@ -11,6 +11,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   padding: 20px 0;
+  cursor: pointer;
 }
 .menu-toggle {
   opacity: 0;

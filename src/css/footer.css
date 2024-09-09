@@ -30,7 +30,7 @@
 
 .footer-logo {
   text-transform: lowercase;
-
+  cursor: pointer;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -204,7 +204,6 @@
 
   .footer-number {
     margin-top: 0px;
-    margin-bottom: 20px;
 
     height: 48px;
 
