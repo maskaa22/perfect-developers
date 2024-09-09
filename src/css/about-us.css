@@ -1,5 +1,5 @@
 .about-us
-{margin-bottom: 60px;}
+{padding-bottom: 60px;}
 
 .inner-container 
 {background-color: #f3f3f3;
@@ -40,30 +40,19 @@ background-color: #3350e9;
 color: #fbfbfb;
 padding: 15px 38px;
 font-size: 14px;
-font-weight: 500;}
+font-weight: 500;
+margin-bottom: 0;}
 
 .button:hover 
 {background-color: #1f3cd4;}
 
-.container-pict 
-{width: 335px;
-height: 446px;}
-
-.container-pict img
-{width: 100%;
-height: 100%;
-object-fit: cover;
-border-radius: 30px;}
-
 @media screen and (min-width: 768px) {
 
 .about-us 
-{margin-bottom: 80px;}
+{padding-bottom: 80px;}
 
 .inner-container 
-{width: 704px;
-height: 512px;
-border-radius: 50px;
+{border-radius: 50px;
 padding: 80px 60px;
 margin-bottom: 40px;}
 
@@ -78,22 +67,12 @@ margin-bottom: 40px;}
 {font-size: 16px;
 line-height: 1.25;}
 
-.button 
-{margin-bottom: 80px;}
-
-.container-pict 
-{width: 704px;
-height: 512px;}
-
-.container-pict img 
-{border-radius: 50px;}
-
 }
 
 @media screen and (min-width: 1280px) {
 
 .about-us 
-{margin-bottom: 100px;}
+{padding-bottom: 100px;}
 
 .about
 {display: flex;
@@ -103,14 +82,15 @@ gap: 40px;}
 
 .inner-container
 {width: 580px;
-height: 532px;
-margin-bottom: 0 auto;}
+margin-bottom: 0;}
 
 .description 
 {margin-bottom: 40px;}
 
-.container-pict 
-{width: 530px;
-height: 532px;}
+.button
+{margin-bottom: 0;}
+
+.pict 
+{width: 530px;}
 
 }
