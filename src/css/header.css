@@ -124,6 +124,9 @@
   position: relative;
   display: flex;
 }
+.nav-link:focus {
+  color: #3350E9;
+}
 .social-list {
   color: wheat;
   display: flex;
@@ -139,6 +142,9 @@
   align-items: center;
 }
 .social-icon {
+  fill: #fbfbfbc2; 
+}
+.social-link:focus .social-icon {
   fill: #fbfbfb;
 }
 
@@ -168,9 +174,7 @@
   .nav-link {
     padding: 16px 0;
   }
-  .nav-link:focus {
-    color: #3350E9;
-  }
+ 
   .header-contaner {
     padding: 26px 32px;
   }
