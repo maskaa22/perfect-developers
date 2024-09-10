@@ -167,7 +167,7 @@
 
   .sale-title-inner {
     border-radius: 50px;
-    width: 704px;
+    max-width: 704px;
     height: 518px;
     padding: 60px 60px;
   }

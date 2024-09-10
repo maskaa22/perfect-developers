@@ -125,6 +125,7 @@
     flex-basis: calc((100% - 16px) / 2);
     height: 414px;
     margin-bottom: 0;
+    max-width: 344px;
   }
 
   .image-container {
@@ -162,6 +163,7 @@
 
   .catalog-list-item {
     flex-basis: calc((100% - 46px) / 3);
+    max-width: 368px;
   }
 
   .catalog-card {
