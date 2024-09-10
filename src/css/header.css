@@ -15,50 +15,7 @@
   padding: 20px 0;
   cursor: pointer;
 }
-/* 
-.menu-toggle {
-  opacity: 0;
-}
-.menu-toggle:checked ~ .menu-open-btn > span::before {
-  top: 0;
-  transform: rotate(45deg);
-}
-.menu-toggle:checked ~ .menu-open-btn > span::after {
-  top: 0;
-  transform: rotate(130deg);
-}
-.menu-toggle:checked ~ .menu-open-btn > span::before,
-.menu-toggle:checked ~ .menu-open-btn > span::after {
-  z-index: 20;
-  background-color: #fbfbfb;
-}
-.menu-open-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background-color: transparent;
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  padding-right: 20px;
-}
-.menu-open-btn > span::before,
-.menu-open-btn > span::after {
-  display: block;
-  position: absolute;
-  width: 16px;
-  height: 2px;
-  background-color: #0c0c0c;
-}
-.menu-open-btn > span::before {
-  content: '';
-  top: -4px;
-}
-.menu-open-btn > span::after {
-  content: '';
-  top: 4px;
-} */
+
 .nav-container {
   flex-direction: column;
   gap: 40px;
@@ -111,13 +68,11 @@
   right: 20px;
 }
 .menu-icon {
-  fill: none;
-  
+  fill: none; 
 }
-
-/* .menu-toggle:checked ~ .nav-container {
-  transform: translateX(0%);
-} */
+.menu-icon.open {
+  stroke: #0c0c0c;
+}
 
 .nav-link {
   font-family: 'Gilroy', sans-serif;
@@ -208,9 +163,6 @@
     padding: 16px 0;
   }
 
-  .header-contaner {
-    padding: 26px 32px;
-  }
   .logo {
     font-size: 20px;
     padding: 26px 0;
