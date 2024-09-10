@@ -43,7 +43,7 @@
 .sale-title-inner {
   padding: 48px 28px;
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   background-color: #3350e9;
 }
 .sale-h3 {
@@ -213,7 +213,9 @@
   .sale-container {
     display: block;
   }
-
+  .sale-inner-container {
+    margin-bottom: 0;
+  }
   .sale-container-inner {
     display: flex;
     gap: 40px;
