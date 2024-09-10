@@ -55,21 +55,20 @@
 }
 
 .button-advertisement{
-    padding: 15px 44px;
+    padding: 15px 42px;
     display: block;
-
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
     background-color: transparent;
     cursor: pointer;
-    border: 1px solid rgba(251, 251, 251, 0.15);
+    border: 1px solid rgba(251, 251, 251, .15);
     border-radius: 16px;
-    min-width: 160px;
+    max-width: 160px;
     height: 48px;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 .button-advertisement:hover{
     background-color: #fbfbfb;  
